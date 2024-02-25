@@ -2,7 +2,7 @@ import React from 'react';
 import { FaRegMoneyBillAlt, FaProjectDiagram, FaClock, FaTools } from 'react-icons/fa';
 
 const Card = ({ icon, heading, mainContent, footer }) => (
-  <div className="max-w-sm p-6 rounded-lg border border-gray-200 shadow-md dark:border-gray-700 bg-amber-100">
+  <div className="max-w-sm p-6 rounded-lg border border-gray-200 shadow-md dark:border-gray-700 bg-amber-100 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
     <div className="flex justify-start items-center mb-4 text-gray-700">{icon}</div>
     <h3 className="mb-2 text-lg font-semibold text-gray-900">{heading}</h3>
     <div className="text-xl font-bold mb-2">{mainContent}</div>
