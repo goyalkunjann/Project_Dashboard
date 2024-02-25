@@ -1,12 +1,16 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
-import './index.css'; 
+import Topbar from './components/Topbar';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex">
       <Sidebar />
-      {/* Other components */}
+      <div className="content flex-1">
+        <Topbar />
+        <Dashboard />
+      </div>
     </div>
   );
 }
