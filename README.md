@@ -16,4 +16,11 @@ This project is a web-based frontend dashboard for project management, providing
 - **Recharts**: React charting library for creating responsive charts and graphs.
 - **React Router**: Library for declarative routing in React applications.
 
+# Project Setup Instructions
+
+1. Clone the repository: `git clone <repository-url> your-project-folder`
+2. Navigate to the project directory: `cd your-project-folder`
+3. Install dependencies: `npm install`
+4. Build the project (if needed): `npm run dev` 
+5. Start the development server: `npm start`
 
